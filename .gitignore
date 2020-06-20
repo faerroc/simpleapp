@@ -30,3 +30,10 @@
 *.exe
 *.out
 *.app
+
+# Project custom
+simpleapp
+cmake_install.cmake
+CMakeCache.txt
+Makefile
+CMakeFiles/*
