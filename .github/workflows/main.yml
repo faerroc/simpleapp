@@ -27,3 +27,11 @@ jobs:
       run: |
         ./clean.sh
         ./build.sh
+        mkdir -p output
+        cp -f simpleapp output/
+        ./clean.sh
+        
+    - uses: actions/upload-artifact@v2
+      with:
+        name: my-artifact
+        path: output/simpleapp
