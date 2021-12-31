@@ -18,6 +18,10 @@ using namespace std;
 int main(int argc, char *argv[])
 {
    cout << "Hello World !" << endl;
+
+   cout << __DATE__ << " " << __TIME__ << endl;
+
+   cout << __TIMESTAMP__ "" << endl;
    
    cout << argc << endl;
 
